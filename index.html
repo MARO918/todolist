@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoリスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fireworks-container"></div>
+    
+    <div class="container">
+        <h1 id="todo-title" contenteditable="true">私のToDoリスト</h1>
+        <p>※クリックしてタイトルを編集できます</p>
+
+        <div class="input-area">
+            <input type="text" id="new-todo" placeholder="新しいToDoを入力してください" maxlength="100">
+            <button id="add-button">追加</button>
+        </div>
+
+        <div class="list-container">
+            <section class="todo-section">
+                <h2>✍️ やることリスト</h2>
+                <ul id="todo-list">
+                    </ul>
+            </section>
+            
+            <section class="completed-section">
+                <h2>✨ 達成リスト</h2>
+                <ul id="completed-list">
+                    </ul>
+            </section>
+        </div>
+    </div>
+    <footer id="app-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="company_logo.png" alt="株式会社達成ラボ ロゴ">
+                <span>株式会社達成ラボ</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">プライバシーポリシー</a>
+                <a href="#">利用規約</a>
+                <a href="#">特定商取引法に基づく表記</a>
+            </div>
+            <div class="footer-contact">
+                <p>お問い合わせ：support@example.com</p>
+                <p>電話：03-xxxx-xxxx (平日 10:00-17:00)</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2025 TASSEI LAB Co., Ltd. All Rights Reserved.
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
